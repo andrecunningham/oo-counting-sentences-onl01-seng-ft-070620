@@ -2,6 +2,9 @@ require 'pry'
 
 class String
 
+def sentence?
+  
+  
      attr_accessor :name
  
   def initialize(name)
