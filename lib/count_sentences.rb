@@ -31,6 +31,7 @@ self.end_with?("!")
 periods = self.scan(/\./)
 excla = self.scan(/\!/)
 questions = self.scan(/\?/)
+
   binding.pry
 end
 end
