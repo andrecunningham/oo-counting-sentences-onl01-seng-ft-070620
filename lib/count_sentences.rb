@@ -37,5 +37,3 @@ array.delete_if {|sent| sent.size <2}
 end
 end
 
-scores = [ 97, 42, 75 ]
-scores.delete_if {|score| score < 80 }   #=> [97]
