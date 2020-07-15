@@ -33,7 +33,7 @@ excla = self.scan(/\!/)
 questions = self.scan(/\?/)
 array = self.split (/\.|\?|\!/)
 array.delete_if {|sent| sent.size <2}
-  return  
+  return array.count
 end
 end
 
