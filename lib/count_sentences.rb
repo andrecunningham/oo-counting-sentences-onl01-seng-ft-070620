@@ -31,6 +31,7 @@ self.end_with?("!")
 periods = self.scan(/\./)
 excla = self.scan(/\!/)
 questions = self.scan(/\?/)
+array = self.split (/\.|\?|\!/)
 
   binding.pry
 end
