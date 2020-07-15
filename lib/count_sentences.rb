@@ -27,7 +27,7 @@ self.end_with?("!")
   end
 
   def count_sentences
-b
+
 periods = self.scan(/\./)
 excla = self.scan(/\!/)
 questions = self.scan(/\?/)
