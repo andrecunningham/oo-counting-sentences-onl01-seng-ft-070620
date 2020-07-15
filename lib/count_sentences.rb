@@ -4,7 +4,7 @@ class String
 attr_accessor :name
 
 def sentence?
-  binding.pry
+ self.end_with?(".")
 end
   
      
