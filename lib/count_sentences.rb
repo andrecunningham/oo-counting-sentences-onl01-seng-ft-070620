@@ -13,13 +13,13 @@ end
   #   @name = name
   # end
  
-    def say hi
-      "HI!"
-    end
+    # def say hi
+    #   "HI!"
+    # end
    
 
   def question?
-
+self.end_with?("?")
   end
 
   def exclamation?
