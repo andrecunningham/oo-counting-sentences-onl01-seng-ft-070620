@@ -29,7 +29,7 @@ self.end_with?("!")
   def count_sentences
 binding.pry
 periods = self.scan(/\./)
-excla = self.scan(/\./)
-questions = self.scan(/\./)
+excla = self.scan(/\!/)
+questions = self.scan(/\?/)
   end
 end
