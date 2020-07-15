@@ -31,5 +31,6 @@ b
 periods = self.scan(/\./)
 excla = self.scan(/\!/)
 questions = self.scan(/\?/)
-  endinding.pry
+  binding.pry
+end
 end
