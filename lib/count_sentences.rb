@@ -3,7 +3,7 @@ require 'pry'
 class String
 
 def sentence?
-  test_string =  string.new("HI!")
+  test_String =  String.new("HI!")
   test_string.sentence?
 end
   
