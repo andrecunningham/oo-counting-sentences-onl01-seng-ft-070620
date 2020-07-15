@@ -32,7 +32,7 @@ periods = self.scan(/\./)
 excla = self.scan(/\!/)
 questions = self.scan(/\?/)
 array = self.split (/\.|\?|\!/)
-array
+array.delete_if {|sent| sent.size <2}
   binding.pry
 end
 end
